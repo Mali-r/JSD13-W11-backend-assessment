@@ -1,0 +1,12 @@
+### Get all products
+GET http://localhost:3000/products
+
+### Add a product
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "Keyboard",
+  "price": 49.99,
+  "quantity": 1
+}
