@@ -21,7 +21,7 @@ Rate yourself honestly using the scale below. This rating is not scored on its o
 | 4 | **AI generated the code, but I fully understand it.** AI generated most or all of the code, but I can explain how it works, why it works, and how the main parts connect. |
 | 5 | **AI generated the code with limited understanding.** AI generated most or all of the code, and I cannot confidently explain how or why everything works. |
 
-**My rating:** ___
+**My rating:** | 2 |
 
 > If you rated **2 or higher**, also complete the "AI Process" section at the end of this document.
 
