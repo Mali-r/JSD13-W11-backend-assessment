@@ -1,8 +1,8 @@
 ### Get all products
-GET http://localhost:3000/products
+GET http://localhost:3001/products
 
 ### Add a product
-POST http://localhost:3000/products
+POST http://localhost:3001/products
 Content-Type: application/json
 
 {

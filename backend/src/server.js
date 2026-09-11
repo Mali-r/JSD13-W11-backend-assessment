@@ -182,7 +182,7 @@ app.get("/", (req, res) => {
 </html>`);
 });
 
-app.use("/product", productsRoutes);
+app.use("/", productsRoutes);
 
 // Centralized Error Handling middleware
 app.use((err, req, res, next) => {
