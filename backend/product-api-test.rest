@@ -10,3 +10,16 @@ Content-Type: application/json
   "price": 49.99,
   "quantity": 1
 }
+
+### Update a product
+PUT http://localhost:3001/products/1
+Content-Type: application/json
+
+{
+  "name": "PenEdit",
+  "price": 100.00,
+  "quantity": 5
+}
+
+### Delete Product
+DELETE http://localhost:3001/products/1

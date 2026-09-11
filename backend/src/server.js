@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors";
-import { products } from "./localDB/product.js";
 import { router as productsRoutes } from "./routes/index.js"
 
 const app = express();
@@ -200,7 +199,6 @@ async function start() {
       console.log(`Server running on PORT: ${PORT} 👽`);
     });
   } catch (err) {
-    console.error("Failed to connect to MongoDB", err.message);
     process.exit(1);
   }
 }
